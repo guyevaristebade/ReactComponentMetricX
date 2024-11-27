@@ -1,0 +1,26 @@
+.post-json {
+  padding: 2rem;
+
+  #instruction {
+    background-color: lightgray;
+    padding: 1rem;
+    border-radius: 5px;
+
+    pre {
+      background-color: rgba(0, 0, 0, 0.67);
+      color: #fff;
+      padding-bottom: 1rem;
+      border-radius: 5px;
+
+      &:last-child {
+        height: 400px;
+        overflow-y: scroll;
+      }
+    }
+  }
+
+  .form-post {
+    margin-top: 2rem;
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "version": "1.3.8",
+  "project": "dev-panel",
+  "date": "23/06/2023_09h37",
+  "team": "Lion's Dev Team",
+  "stats": {
+    "Button": {
+      "count": 2,
+      "props": {
+        "onClick": {
+          "unreadableValue": 2
+        },
+        "variant": {
+          "VariantState.PRIMARY": 1,
+          "VariantState.SECONDARY": 1
+        }
+      },
+      "children": {
+        "Icon": 2
+      }
+    },
+    "Icon": {
+      "count": 2,
+      "props": {
+        "name": {
+          "unreadableValue": 2
+        }
+      },
+      "children": {
+        "noChild": 2
+      }
+    },
+    "Tag": {
+      "count": 3,
+      "props": {
+        "variant": {
+          "TagVariant.SECONDARY": 1,
+          "TagVariant.SUCCESS": 1,
+          "TagVariant.DEFAULT": 1
+        },
+        "style": {
+          "unreadableValue": 3
+        }
+      },
+      "children": {}
+    },
+    "TagList": {
+      "count": 1,
+      "props": {},
+      "children": {}
+    },
+    "Select": {
+      "count": 1,
+      "props": {
+        "dynamicPlaceholder": {
+          "true": 1
+        },
+        "label": {
+          "Sélectionner un compte": 1
+        },
+        "placeholder": {
+          "Sélectionner un compte": 1
+        },
+        "onChange": {
+          "function": 1
+        }
+      },
+      "children": {}
+    },
+    "SelectOption": {
+      "count": 1,
+      "props": {
+        "id": {
+          "unreadableValue": 1
+        },
+        "value": {
+          "unreadableValue": 1
+        }
+      },
+      "children": {}
+    },
+    "Switch": {
+      "count": 1,
+      "props": {
+        "checked": {
+          "unreadableValue": 1
+        },
+        "onChange": {
+          "unreadableValue": 1
+        }
+      },
+      "children": {
+        "noChild": 1
+      }
+    }
+  }
+}

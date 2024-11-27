@@ -1,0 +1,14 @@
+.dashboard {
+  padding: 2rem;
+
+  .row {
+    margin-top: 1rem;
+  }
+
+  .table-col {
+    .table {
+      height: 200px;
+      overflow-y: scroll;
+    }
+  }
+}

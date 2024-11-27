@@ -1,0 +1,33 @@
+.componentDetails {
+  margin: 2rem;
+
+  .version {
+    font-weight: bold;
+    &:first-child {
+      background-color: orange;
+    }
+
+    &:last-child {
+      background-color: green;
+    }
+  }
+
+  .project {
+    font-weight: bold;
+    &:first-child {
+      background-color: orange;
+    }
+
+    &:last-child {
+      background-color: green;
+    }
+  }
+
+  .select-version {
+    width: 100px;
+  }
+
+  ul {
+    list-style: none;
+  }
+}

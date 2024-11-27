@@ -1,0 +1,334 @@
+{
+  "version": "3.8.1",
+  "project": "dev-panel",
+  "date": "24/11/2023_17h02",
+  "team": "Guy's team",
+  "stats": {
+    "Container": {
+      "count": 3,
+      "props": {
+        "fullwidth": {
+          "true": 3
+        },
+        "className": {
+          "is-fullheight": 2
+        }
+      },
+      "children": {
+        "Text": 2,
+        "Select": 1,
+        "Rows": 2
+      }
+    },
+    "Text": {
+      "count": 5,
+      "props": {
+        "level": {
+          "TextLevels.ONE": 3,
+          "TextLevels.TWO": 2
+        },
+        "typo": {
+          "TypographyBold.TEXT_WEIGHT_SEMIBOLD": 2
+        },
+        "className": {
+          "is-marginless": 1
+        }
+      },
+      "children": {}
+    },
+    "Select": {
+      "count": 1,
+      "props": {
+        "placeholder": {
+          "Choix de version": 1
+        },
+        "native": {
+          "true": 1
+        },
+        "onChange": {
+          "function": 1
+        }
+      },
+      "children": {}
+    },
+    "SelectOption": {
+      "count": 1,
+      "props": {
+        "key": {
+          "unreadableValue": 1
+        },
+        "value": {
+          "unreadableValue": 1
+        },
+        "selected": {
+          "unreadableValue": 1
+        }
+      },
+      "children": {}
+    },
+    "Rows": {
+      "count": 2,
+      "props": {},
+      "children": {
+        "RowItem": 5
+      }
+    },
+    "RowItem": {
+      "count": 5,
+      "props": {
+        "className": {
+          "is-paddingless": 5
+        },
+        "narrow": {
+          "true": 3
+        }
+      },
+      "children": {
+        "Section": 5
+      }
+    },
+    "Section": {
+      "count": 8,
+      "props": {
+        "background": {
+          "TrilogyColor.WHITE": 3,
+          "TrilogyColor.GREY_LIGHT": 2,
+          "TrilogyColor.TERTIARY": 3
+        },
+        "className": {
+          "is-fullheight": 3
+        }
+      },
+      "children": {
+        "customComponent": 8,
+        "Spacer": 1,
+        "Text": 2
+      }
+    },
+    "Title": {
+      "count": 3,
+      "props": {
+        "level": {
+          "TitleLevels.THREE": 2,
+          "TitleLevels.ONE": 1
+        },
+        "marginless": {
+          "true": 1
+        },
+        "typo": {
+          "TypographyAlign.TEXT_CENTERED": 1
+        }
+      },
+      "children": {}
+    },
+    "Spacer": {
+      "count": 1,
+      "props": {
+        "size": {
+          "SpacerSize.MEDIUM": 1
+        }
+      },
+      "children": {
+        "noChild": 1
+      }
+    },
+    "Button": {
+      "count": 2,
+      "props": {
+        "fullwidth": {
+          "true": 2
+        },
+        "onClick": {
+          "unreadableValue": 2
+        },
+        "variant": {
+          "VariantState.PRIMARY": 1,
+          "VariantState.SECONDARY": 1
+        },
+        "iconName": {
+          "unreadableValue": 2
+        }
+      },
+      "children": {
+        "noChild": 2
+      }
+    },
+    "Tag": {
+      "count": 3,
+      "props": {
+        "variant": {
+          "TagVariant.SECONDARY": 1,
+          "TagVariant.SUCCESS": 1,
+          "TagVariant.DEFAULT": 1
+        },
+        "iconName": {
+          "unreadableValue": 3
+        }
+      },
+      "children": {}
+    },
+    "Table": {
+      "count": 1,
+      "props": {},
+      "children": {
+        "TableHead": 1,
+        "TableBody": 1
+      }
+    },
+    "TableHead": {
+      "count": 1,
+      "props": {},
+      "children": {
+        "TableTr": 1
+      }
+    },
+    "TableTr": {
+      "count": 3,
+      "props": {},
+      "children": {
+        "TableTh": 3,
+        "TableTd": 6
+      }
+    },
+    "TableTh": {
+      "count": 3,
+      "props": {},
+      "children": {}
+    },
+    "TableBody": {
+      "count": 1,
+      "props": {},
+      "children": {
+        "TableTr": 2
+      }
+    },
+    "TableTd": {
+      "count": 6,
+      "props": {},
+      "children": {}
+    },
+    "Switch": {
+      "count": 1,
+      "props": {
+        "checked": {
+          "unreadableValue": 1
+        },
+        "onChange": {
+          "unreadableValue": 1
+        }
+      },
+      "children": {
+        "noChild": 1
+      }
+    },
+    "Slice": {
+      "count": 1,
+      "props": {
+        "style": {
+          "unreadableValue": 1
+        },
+        "onClick": {
+          "unreadableValue": 1
+        }
+      },
+      "children": {
+        "SliceContent": 1
+      }
+    },
+    "SliceContent": {
+      "count": 1,
+      "props": {},
+      "children": {
+        "Columns": 1
+      }
+    },
+    "Columns": {
+      "count": 2,
+      "props": {
+        "verticalCentered": {
+          "true": 2
+        },
+        "inlined": {
+          "true": 1
+        }
+      },
+      "children": {
+        "ColumnsItem": 5
+      }
+    },
+    "ColumnsItem": {
+      "count": 5,
+      "props": {
+        "narrow": {
+          "true": 3
+        },
+        "className": {
+          "is-paddingless": 1
+        }
+      },
+      "children": {
+        "Text": 1,
+        "Popover": 1,
+        "Icon": 1,
+        "Title": 1,
+        "customComponent": 1
+      }
+    },
+    "Popover": {
+      "count": 1,
+      "props": {
+        "content": {
+          "unreadableValue": 1
+        },
+        "direction": {
+          "PopoverDirection.LEFT": 1
+        }
+      },
+      "children": {}
+    },
+    "Card": {
+      "count": 1,
+      "props": {},
+      "children": {
+        "customComponent": 1,
+        "CardContent": 1
+      }
+    },
+    "CardContent": {
+      "count": 1,
+      "props": {
+        "style": {
+          "unreadableValue": 1
+        }
+      },
+      "children": {
+        "SliceList": 1
+      }
+    },
+    "SliceList": {
+      "count": 1,
+      "props": {},
+      "children": {}
+    },
+    "Icon": {
+      "count": 1,
+      "props": {
+        "name": {
+          "IconName.ARROW_LEFT": 1
+        },
+        "size": {
+          "IconSize.SMALL": 1
+        },
+        "onClick": {
+          "function": 1
+        },
+        "style": {
+          "unreadableValue": 1
+        }
+      },
+      "children": {
+        "noChild": 1
+      }
+    }
+  }
+}

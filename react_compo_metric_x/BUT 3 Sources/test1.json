@@ -1,0 +1,112 @@
+{
+    "version": "4.1.1",
+    "project": "dashboard-update",
+    "date": "20/03/2024_10h00",
+    "team": "Beta Squad",
+    "stats": {
+      "Dashboard": {
+        "count": 1,
+        "props": {
+          "theme": {
+            "dark": 1
+          },
+          "layout": {
+            "fixed": 1
+          }
+        },
+        "children": {
+          "Widget": 2,
+          "Footer": 1
+        }
+      },
+      "Widget": {
+        "count": 2,
+        "props": {
+          "type": {
+            "chart": 1,
+            "summary": 1
+          }
+        },
+        "children": {
+          "Chart": 1
+        }
+      },
+      "Footer": {
+        "count": 1,
+        "props": {
+          "copyright": {
+            "true": 1
+          }
+        },
+        "children": {}
+      },
+      "Chart": {
+        "count": 1,
+        "props": {
+          "chartType": {
+            "pie": 1
+          }
+        },
+        "children": {}
+      },
+      "NavigationBar": {
+        "count": 1,
+        "props": {},
+        "children": {
+          "NavItem": 2
+        }
+      },
+      "NavItem": {
+        "count": 2,
+        "props": {
+          "active": {
+            "true": 1,
+            "false": 1
+          }
+        },
+        "children": {}
+      },
+      "ProfileCard": {
+        "count": 1,
+        "props": {
+          "user": {
+            "unreadableValue": 1
+          },
+          "showDetails": {
+            "true": 1
+          }
+        },
+        "children": {
+          "Avatar": 1,
+          "UserInfo": 1
+        }
+      },
+      "Avatar": {
+        "count": 1,
+        "props": {
+          "size": {
+            "medium": 1
+          }
+        },
+        "children": {}
+      },
+      "UserInfo": {
+        "count": 1,
+        "props": {
+          "displayEmail": {
+            "true": 1
+          }
+        },
+        "children": {}
+      },
+      "SearchBar": {
+        "count": 1,
+        "props": {
+          "placeholder": {
+            "Rechercher...": 1
+          }
+        },
+        "children": {}
+      }
+    }
+  }

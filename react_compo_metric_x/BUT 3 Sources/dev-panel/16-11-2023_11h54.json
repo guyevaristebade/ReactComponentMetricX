@@ -1,0 +1,481 @@
+{
+  "version": "3.8.1",
+  "project": "dev-panel",
+  "date": "16/11/2023_12h44",
+  "team" : "Félix's team",
+  "stats": {
+    "Container": {
+      "count": 8,
+      "props": {
+        "fullwidth": {
+          "true": 8
+        },
+        "className": {
+          "is-fullheight": 6
+        }
+      },
+      "children": {
+        "Text": 2,
+        "Select": 1,
+        "Rows": 6,
+        "Columns": 1,
+        "customComponent": 1
+      }
+    },
+    "Text": {
+      "count": 12,
+      "props": {
+        "level": {
+          "TextLevels.ONE": 7,
+          "TextLevels.TWO": 4
+        },
+        "typo": {
+          "TypographyBold.TEXT_WEIGHT_SEMIBOLD": 6
+        },
+        "inverted": {
+          "true": 1
+        },
+        "marginless": {
+          "true": 2
+        },
+        "markup": {
+          "TextMarkup.SPAN": 1
+        },
+        "className": {
+          "is-marginless": 1
+        }
+      },
+      "children": {
+        "Text": 1
+      }
+    },
+    "Select": {
+      "count": 1,
+      "props": {
+        "placeholder": {
+          "Choix de version": 1
+        },
+        "native": {
+          "true": 1
+        },
+        "onChange": {
+          "function": 1
+        }
+      },
+      "children": {}
+    },
+    "SelectOption": {
+      "count": 1,
+      "props": {
+        "key": {
+          "unreadableValue": 1
+        },
+        "value": {
+          "unreadableValue": 1
+        },
+        "selected": {
+          "unreadableValue": 1
+        }
+      },
+      "children": {}
+    },
+    "Rows": {
+      "count": 6,
+      "props": {},
+      "children": {
+        "RowItem": 15
+      }
+    },
+    "RowItem": {
+      "count": 17,
+      "props": {
+        "className": {
+          "is-paddingless": 17
+        },
+        "narrow": {
+          "true": 11
+        }
+      },
+      "children": {
+        "Section": 17
+      }
+    },
+    "Section": {
+      "count": 17,
+      "props": {
+        "background": {
+          "TrilogyColor.WHITE": 6,
+          "TrilogyColor.GREY_LIGHT": 5,
+          "TrilogyColor.TERTIARY": 6
+        },
+        "className": {
+          "is-fullheight": 3,
+          "is-fullheight little-section": 3
+        },
+        "style": {
+          "unreadableValue": 4
+        }
+      },
+      "children": {
+        "customComponent": 12,
+        "Spacer": 2,
+        "ButtonList": 1,
+        "Text": 6,
+        "Box": 1,
+        "SliceList": 1,
+        "Button": 1
+      }
+    },
+    "Title": {
+      "count": 8,
+      "props": {
+        "level": {
+          "TitleLevels.THREE": 6,
+          "TitleLevels.ONE": 1
+        },
+        "subtitle": {
+          "true": 1
+        },
+        "marginless": {
+          "true": 1
+        },
+        "typo": {
+          "TypographyAlign.TEXT_CENTERED": 1
+        }
+      },
+      "children": {
+        "Link": 1
+      }
+    },
+    "Spacer": {
+      "count": 3,
+      "props": {
+        "size": {
+          "SpacerSize.MEDIUM": 2,
+          "SpacerSize.LARGE": 1
+        }
+      },
+      "children": {
+        "noChild": 3
+      }
+    },
+    "ButtonList": {
+      "count": 1,
+      "props": {
+        "className": {
+          "is-flex": 1
+        }
+      },
+      "children": {
+        "Button": 2
+      }
+    },
+    "Button": {
+      "count": 6,
+      "props": {
+        "fullwidth": {
+          "true": 4
+        },
+        "onClick": {
+          "unreadableValue": 2,
+          "function": 4
+        },
+        "variant": {
+          "VariantState.PRIMARY": 1,
+          "VariantState.SECONDARY": 1,
+          "ButtonColor.TERTIARY": 2,
+          "ButtonColor.PRIMARY": 2
+        },
+        "iconName": {
+          "IconName.TRASH": 1,
+          "IconName.DOWNLOAD": 1
+        },
+        "loading": {
+          "unreadableValue": 2
+        }
+      },
+      "children": {
+        "noChild": 2
+      }
+    },
+    "Tag": {
+      "count": 3,
+      "props": {
+        "variant": {
+          "TagVariant.SECONDARY": 1,
+          "TagVariant.SUCCESS": 1,
+          "TagVariant.DEFAULT": 1
+        },
+        "iconName": {
+          "unreadableValue": 3
+        }
+      },
+      "children": {}
+    },
+    "Table": {
+      "count": 1,
+      "props": {
+        "fullwidth": {
+          "true": 1
+        }
+      },
+      "children": {
+        "TableHead": 1,
+        "TableBody": 1
+      }
+    },
+    "TableHead": {
+      "count": 1,
+      "props": {},
+      "children": {
+        "TableTr": 1
+      }
+    },
+    "TableTr": {
+      "count": 2,
+      "props": {
+        "className": {
+          "has-background-white": 1
+        }
+      },
+      "children": {
+        "TableTh": 4,
+        "TableTd": 4
+      }
+    },
+    "TableTh": {
+      "count": 4,
+      "props": {
+        "className": {
+          "is-paddingless": 1
+        },
+        "style": {
+          "unreadableValue": 1
+        }
+      },
+      "children": {
+        "Icon": 1
+      }
+    },
+    "Icon": {
+      "count": 5,
+      "props": {
+        "size": {
+          "IconSize.SMALL": 4,
+          "IconSize.MEDIUM": 1
+        },
+        "name": {
+          "IconName.INFOS_CIRCLE": 2,
+          "IconName.PENCIL": 1,
+          "IconName.TIMES": 1,
+          "IconName.ARROW_LEFT": 1
+        },
+        "className": {
+          "is-invisible": 1,
+          "is-danger": 1
+        },
+        "onClick": {
+          "function": 3
+        },
+        "style": {
+          "unreadableValue": 1
+        }
+      },
+      "children": {
+        "noChild": 5
+      }
+    },
+    "TableBody": {
+      "count": 1,
+      "props": {},
+      "children": {}
+    },
+    "TableTd": {
+      "count": 4,
+      "props": {
+        "className": {
+          "is-narrow is-paddingless": 1
+        },
+        "style": {
+          "unreadableValue": 2
+        }
+      },
+      "children": {}
+    },
+    "Popover": {
+      "count": 4,
+      "props": {
+        "content": {
+          "unreadableValue": 2,
+          "Modifier": 1,
+          "Supprimer": 1
+        },
+        "direction": {
+          "PopoverDirection.RIGHT": 1,
+          "PopoverDirection.LEFT": 3
+        }
+      },
+      "children": {
+        "Icon": 3
+      }
+    },
+    "Columns": {
+      "count": 4,
+      "props": {
+        "className": {
+          "is-fullwidth": 1
+        },
+        "verticalCentered": {
+          "true": 4
+        },
+        "inlined": {
+          "true": 1
+        }
+      },
+      "children": {
+        "ColumnsItem": 10
+      }
+    },
+    "ColumnsItem": {
+      "count": 10,
+      "props": {
+        "narrow": {
+          "true": 6
+        },
+        "style": {
+          "unreadableValue": 1
+        },
+        "className": {
+          "is-paddingless": 2
+        }
+      },
+      "children": {
+        "Input": 1,
+        "Text": 2,
+        "Popover": 3,
+        "Icon": 1,
+        "Title": 1,
+        "customComponent": 1
+      }
+    },
+    "Input": {
+      "count": 1,
+      "props": {
+        "value": {
+          "unreadableValue": 1
+        },
+        "type": {
+          "InputType.TEXT": 1
+        },
+        "onChange": {
+          "function": 1
+        },
+        "placeholder": {
+          "login": 1
+        }
+      },
+      "children": {
+        "noChild": 1
+      }
+    },
+    "Link": {
+      "count": 1,
+      "props": {
+        "href": {
+          "https://ap.mockette-admin.apps.ocp-1.pin.prd.mlb.nbyt.fr/browse/dev-panel/users.mock": 1
+        },
+        "blank": {
+          "true": 1
+        }
+      },
+      "children": {}
+    },
+    "Box": {
+      "count": 1,
+      "props": {},
+      "children": {
+        "Button": 1,
+        "Spacer": 1,
+        "SliceList": 1
+      }
+    },
+    "SliceList": {
+      "count": 3,
+      "props": {
+        "style": {
+          "unreadableValue": 1
+        }
+      },
+      "children": {}
+    },
+    "Slice": {
+      "count": 4,
+      "props": {
+        "className": {
+          "is-paddingless": 3
+        },
+        "key": {
+          "unreadableValue": 2
+        },
+        "style": {
+          "unreadableValue": 1
+        },
+        "onClick": {
+          "unreadableValue": 1
+        }
+      },
+      "children": {
+        "SliceContent": 4
+      }
+    },
+    "SliceContent": {
+      "count": 4,
+      "props": {
+        "className": {
+          "is-marginless": 1
+        }
+      },
+      "children": {
+        "Switch": 1,
+        "customComponent": 1,
+        "Columns": 2
+      }
+    },
+    "Switch": {
+      "count": 1,
+      "props": {
+        "label": {
+          "unreadableValue": 1
+        },
+        "onClick": {
+          "function": 1
+        },
+        "checked": {
+          "unreadableValue": 1
+        }
+      },
+      "children": {
+        "noChild": 1
+      }
+    },
+    "Card": {
+      "count": 1,
+      "props": {},
+      "children": {
+        "customComponent": 1,
+        "CardContent": 1
+      }
+    },
+    "CardContent": {
+      "count": 1,
+      "props": {
+        "style": {
+          "unreadableValue": 1
+        }
+      },
+      "children": {
+        "SliceList": 1
+      }
+    }
+  }
+}

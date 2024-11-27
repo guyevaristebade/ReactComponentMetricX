@@ -1,0 +1,779 @@
+{
+  "version": "3.7.1",
+  "project": "product-wall",
+  "date": "21/11/2023_16h47",
+  "team": "Guy's team",
+  "stats": {
+    "ColumnsItem": {
+      "count": 76,
+      "props": {
+        "className": {
+          "has-background-white has-text-centered is-full title-text": 1,
+          "filter is-marginless is-narrow-tablet": 1,
+          "is-marginless sort": 1,
+          "is-marginless search": 1,
+          "is-hidden-mobile is-hidden-tablet-only": 4,
+          "is-hidden-mobile is-hidden-tablet-only vertical-filters-wrapper": 1,
+          "unreadableValue": 4,
+          "is-flex is-paddingless": 1,
+          "has-text-left-mobile is-paddingless": 1,
+          "has-text-centered-desktop has-text-left-mobile": 1,
+          "prices-block": 1,
+          "has-text-left is-full": 7,
+          "has-text-right-desktop has-text-right-mobile is-full main": 8,
+          "has-text-left-desktop has-text-left-mobile is-full": 1,
+          "is-marginless selection-label": 2,
+          "has-text-weight-light is-marginless selection-label": 2,
+          "is-paddingless padding-bottom-item": 1,
+          "is-paddingless": 4,
+          "is-hidden-touch": 2,
+          "is-hidden-desktop-only is-hidden-touch": 2,
+          "is-hidden-widescreen": 1,
+          "card has-background-grey-lighter is-shadowless": 1,
+          "is-hidden-mobile": 1
+        },
+        "size": {
+          "2": 1,
+          "3": 3,
+          "4": 3,
+          "5": 5,
+          "6": 2,
+          "7": 4,
+          "8": 2,
+          "9": 2,
+          "12": 11
+        },
+        "narrow": {
+          "true": 2
+        },
+        "mobileSize": {
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "9": 1,
+          "12": 3
+        },
+        "tabletSize": {
+          "3": 1,
+          "4": 1,
+          "6": 3,
+          "12": 8
+        },
+        "desktopSize": {
+          "4": 1,
+          "8": 1,
+          "12": 6
+        },
+        "widescreenSize": {
+          "3": 1,
+          "4": 2,
+          "5": 1,
+          "6": 1,
+          "7": 1
+        },
+        "fullhdSize": {
+          "2": 1,
+          "5": 1
+        },
+        "centered": {
+          "true": 3
+        },
+        "verticalCenter": {
+          "true": 4
+        },
+        "key": {
+          "unreadableValue": 2
+        }
+      },
+      "children": {
+        "ColumnsItem": 10,
+        "Headline": 1,
+        "Button": 6,
+        "Modal": 1,
+        "customComponent": 21,
+        "Columns": 6,
+        "RowItem": 2,
+        "Icon": 2,
+        "Text": 16,
+        "Box": 3,
+        "Divider": 1,
+        "Popover": 1,
+        "Title": 4,
+        "Tag": 1,
+        "Link": 1,
+        "Image": 1
+      }
+    },
+    "Headline": {
+      "count": 1,
+      "props": {
+        "typo": {
+          "unreadableValue": 1
+        },
+        "markup": {
+          "HeadlineMarkup.H1": 1
+        },
+        "className": {
+          "is-size-2": 1
+        }
+      },
+      "children": {}
+    },
+    "Title": {
+      "count": 6,
+      "props": {
+        "markup": {
+          "TitleMarkup.H2": 1
+        },
+        "subtitle": {
+          "true": 1
+        },
+        "typo": {
+          "unreadableValue": 1,
+          "TypographyBold.TEXT_WEIGHT_SEMIBOLD": 2
+        },
+        "level": {
+          "TitleLevels.THREE": 3
+        },
+        "className": {
+          "center-title is-marginless is-size-5": 1,
+          "is-inline-flex is-size-5 is-vcentered": 2,
+          "is-marginless": 2
+        }
+      },
+      "children": {
+        "customComponent": 2
+      }
+    },
+    "Link": {
+      "count": 2,
+      "props": {
+        "onClick": {
+          "function": 2
+        }
+      },
+      "children": {}
+    },
+    "Columns": {
+      "count": 26,
+      "props": {
+        "className": {
+          "filters-sticky has-background-grey-lighter is-hidden-desktop is-marginless": 1,
+          "has-background-grey-lighter": 1,
+          "filters-sticky has-background-grey-lighter horizontal-filters is-hidden-mobile is-hidden-tablet-only": 1,
+          "filter-by-wrap is-hidden-mobile is-hidden-tablet-only is-justified-end is-marginless": 1,
+          "has-text-left": 1,
+          "is-desktop": 1,
+          "comparator-card-container is-fullwidth is-marginless": 1,
+          "top-margin-buttons": 1
+        },
+        "mobile": {
+          "true": 14
+        },
+        "multiline": {
+          "true": 15
+        },
+        "marginless": {
+          "true": 6
+        },
+        "verticalCentered": {
+          "true": 6
+        },
+        "gapless": {
+          "true": 1
+        },
+        "marginSize": {
+          "1": 1,
+          "2": 1
+        }
+      },
+      "children": {
+        "ColumnsItem": 43,
+        "customComponent": 3,
+        "Columns": 1
+      }
+    },
+    "Button": {
+      "count": 7,
+      "props": {
+        "data-cy": {
+          "cta-mobile-filters": 1
+        },
+        "fullwidth": {
+          "true": 3
+        },
+        "variant": {
+          "ButtonColor.TERTIARY": 3,
+          "ButtonColor.PRIMARY": 3,
+          "ButtonColor.SECONDARY": 1
+        },
+        "onClick": {
+          "function": 6
+        },
+        "className": {
+          "is-hidden-desktop sort-button": 1
+        },
+        "disabled": {
+          "unreadableValue": 2
+        }
+      },
+      "children": {
+        "Icon": 3,
+        "customComponent": 3
+      }
+    },
+    "Icon": {
+      "count": 18,
+      "props": {
+        "size": {
+          "IconSize.SMALL": 6,
+          "IconSize.MEDIUM": 3,
+          "IconSize.LARGE": 1
+        },
+        "name": {
+          "IconName.SLIDERS": 2,
+          "IconName.SEARCH": 1,
+          "IconName.HANDSFREE": 1,
+          "IconName.SORT": 1,
+          "unreadableValue": 3,
+          "IconName.CLICK_COLLECT_2H": 1,
+          "IconName.MOBILE_EURO": 1,
+          "IconName.INFOS_CIRCLE": 4,
+          "IconName.TIMES_CIRCLE": 1,
+          "IconName.MOBILE": 1,
+          "IconName.UNDO": 1,
+          "IconName.TIMES": 1
+        },
+        "key": {
+          "unreadableValue": 1
+        },
+        "color": {
+          "IconColor.WARNING": 1,
+          "IconColor.ERROR": 1,
+          "IconColor.TERTIARY": 2
+        },
+        "stretched": {
+          "true": 1
+        },
+        "className": {
+          "unreadableValue": 2,
+          "has-cursor-pointer": 1,
+          "has-cursor-pointer is-marginless": 1,
+          "popover-modal": 1,
+          "icon-not-eligible": 1
+        },
+        "onClick": {
+          "function": 4
+        },
+        "content": {
+          "Filtres": 1
+        },
+        "textClassName": {
+          "is-size-5 has-text-weight-semibold": 1
+        },
+        "position": {
+          "IconPosition.LEFT": 1
+        }
+      },
+      "children": {
+        "noChild": 18
+      }
+    },
+    "Modal": {
+      "count": 4,
+      "props": {
+        "triggerMarkup": {
+          "ModalMarkup.BUTTON": 1,
+          "div": 2
+        },
+        "triggerClassNames": {
+          "button is-secondary is-fullwidth is-hidden open-modal-hidden-button": 1,
+          "unreadableValue": 1,
+          "button is-secondary is-fullwidth is-hidden open-contracts-modal-hidden-button": 1
+        },
+        "triggerContent": {
+          "unreadableValue": 1,
+          "hidden-icon": 2
+        },
+        "className": {
+          "is-panel modal-mobile": 1,
+          "is-xsmall": 1,
+          "is-xsmall modal-contracts": 1,
+          "is-small": 1
+        },
+        "closeIcon": {
+          "true": 4
+        },
+        "ctaCancelOnClick": {
+          "function": 1
+        },
+        "ctaOnClick": {
+          "function": 1
+        },
+        "ctaContent": {
+          "unreadableValue": 1
+        },
+        "onClose": {
+          "function": 3
+        },
+        "active": {
+          "unreadableValue": 3
+        },
+        "contentClassNames": {
+          "modal-contract-content": 1
+        },
+        "disableHandlingClickOutside": {
+          "true": 1
+        }
+      },
+      "children": {
+        "customComponent": 9,
+        "ColumnsItem": 8,
+        "Text": 1,
+        "Columns": 1
+      }
+    },
+    "Box": {
+      "count": 4,
+      "props": {
+        "className": {
+          "is-fullwidth no-product-card": 1,
+          "has-cursor-pointer": 1,
+          "unreadableValue": 1,
+          "box-comparator": 1
+        },
+        "onClick": {
+          "function": 1
+        },
+        "skeleton": {
+          "unreadableValue": 1
+        }
+      },
+      "children": {
+        "BoxContent": 3,
+        "BoxHeader": 1,
+        "BoxFooter": 1,
+        "Icon": 1,
+        "Columns": 1
+      }
+    },
+    "BoxContent": {
+      "count": 3,
+      "props": {
+        "className": {
+          "has-text-centered": 1,
+          "has-text-centered-desktop has-text-centered-tablet is-horizontal": 1
+        }
+      },
+      "children": {
+        "customComponent": 1,
+        "Title": 1,
+        "Text": 1,
+        "Columns": 2,
+        "Radio": 1
+      }
+    },
+    "Text": {
+      "count": 24,
+      "props": {
+        "className": {
+          "is-flex is-vcentered": 1,
+          "device-title is-level-7": 1,
+          "unreadableValue": 3,
+          "is-flex is-level-3 is-marginless": 1,
+          "headline is-size-3": 1,
+          "subtitle-contract-modal": 1,
+          "is-size-5": 1,
+          "comparator-text": 2
+        },
+        "marginless": {
+          "true": 11
+        },
+        "typo": {
+          "TypographyBold.TEXT_WEIGHT_SEMIBOLD": 5,
+          "TypographyAlign.TEXT_LEFT": 1
+        },
+        "level": {
+          "TextLevels.ONE": 6,
+          "TextLevels.TWO": 1,
+          "TextLevels.THREE": 5
+        },
+        "skeleton": {
+          "unreadableValue": 2
+        }
+      },
+      "children": {
+        "customComponent": 3,
+        "Icon": 1
+      }
+    },
+    "RowItem": {
+      "count": 4,
+      "props": {
+        "className": {
+          "has-background-white": 1
+        }
+      },
+      "children": {
+        "RowItem": 1,
+        "ColumnsItem": 1
+      }
+    },
+    "Container": {
+      "count": 3,
+      "props": {
+        "fluid": {
+          "true": 3
+        },
+        "background": {
+          "TrilogyColor.WHITE": 3
+        }
+      },
+      "children": {
+        "customComponent": 3
+      }
+    },
+    "Section": {
+      "count": 2,
+      "props": {
+        "background": {
+          "TrilogyColor.WHITE": 1
+        },
+        "className": {
+          "comparator-sticky": 1
+        },
+        "paddingless": {
+          "true": 1
+        }
+      },
+      "children": {
+        "customComponent": 1,
+        "Accordion": 1
+      }
+    },
+    "Divider": {
+      "count": 4,
+      "props": {
+        "marginless": {
+          "true": 2
+        }
+      },
+      "children": {
+        "noChild": 4
+      }
+    },
+    "Disclaimer": {
+      "count": 1,
+      "props": {
+        "title": {
+          "Mentions légales": 1
+        },
+        "className": {
+          "legal-notice-title": 1
+        }
+      },
+      "children": {
+        "DisclaimerItem": 1
+      }
+    },
+    "DisclaimerItem": {
+      "count": 1,
+      "props": {},
+      "children": {
+        "customComponent": 1
+      }
+    },
+    "Tag": {
+      "count": 4,
+      "props": {
+        "small": {
+          "true": 3
+        },
+        "className": {
+          "font-display-optional is-uppercase": 1,
+          "has-text-grey is-size-6": 1,
+          "is-secondary small-tags": 2
+        },
+        "variant": {
+          "TagVariant.ERROR": 1,
+          "TagVariant.SUCCESS": 2
+        },
+        "onClick": {
+          "function": 2
+        },
+        "key": {
+          "unreadableValue": 2
+        },
+        "deletable": {
+          "true": 2
+        }
+      },
+      "children": {
+        "Icon": 1
+      }
+    },
+    "Breadcrumb": {
+      "count": 1,
+      "props": {},
+      "children": {
+        "BreadcrumbItem": 2
+      }
+    },
+    "BreadcrumbItem": {
+      "count": 3,
+      "props": {
+        "href": {
+          "unreadableValue": 2
+        },
+        "className": {
+          "is-underline": 1,
+          "unreadableValue": 1
+        },
+        "active": {
+          "unreadableValue": 1,
+          "true": 1
+        }
+      },
+      "children": {}
+    },
+    "BoxHeader": {
+      "count": 1,
+      "props": {
+        "className": {
+          "unreadableValue": 1
+        }
+      },
+      "children": {}
+    },
+    "BoxFooter": {
+      "count": 1,
+      "props": {
+        "className": {
+          "is-centered is-flex": 1
+        }
+      },
+      "children": {
+        "Checkbox": 1
+      }
+    },
+    "Checkbox": {
+      "count": 2,
+      "props": {
+        "disabled": {
+          "unreadableValue": 1
+        },
+        "checked": {
+          "unreadableValue": 2
+        },
+        "label": {
+          "Ajouter au comparateur": 1,
+          "unreadableValue": 1
+        },
+        "labelClassName": {
+          "add-to-comparator": 1
+        },
+        "className": {
+          "add-to-comparator disabled": 1
+        },
+        "onChange": {
+          "function": 1
+        },
+        "onClick": {
+          "function": 1
+        },
+        "key": {
+          "unreadableValue": 1
+        },
+        "name": {
+          "unreadableValue": 1
+        }
+      },
+      "children": {
+        "noChild": 1
+      }
+    },
+    "Price": {
+      "count": 1,
+      "props": {
+        "showCents": {
+          "unreadableValue": 1
+        },
+        "inline": {
+          "true": 1
+        },
+        "className": {
+          "has-text-weight-bold is-6": 1
+        },
+        "amount": {
+          "unreadableValue": 1
+        },
+        "period": {
+          "unreadableValue": 1
+        }
+      },
+      "children": {}
+    },
+    "View": {
+      "count": 1,
+      "props": {
+        "className": {
+          "card column has-background-grey-lighter has-text-left is-shadowless subtable": 1
+        }
+      },
+      "children": {
+        "Text": 3
+      }
+    },
+    "Popover": {
+      "count": 1,
+      "props": {
+        "content": {
+          "Le coupon et les instructions vous seront envoyés par mail après achat.": 1
+        }
+      },
+      "children": {
+        "Icon": 1
+      }
+    },
+    "Radio": {
+      "count": 1,
+      "props": {
+        "disabled": {
+          "unreadableValue": 1
+        },
+        "onClick": {
+          "function": 1
+        },
+        "checked": {
+          "unreadableValue": 1
+        },
+        "value": {
+          "unreadableValue": 1
+        },
+        "label": {
+          "unreadableValue": 1
+        }
+      },
+      "children": {}
+    },
+    "TabsItem": {
+      "count": 1,
+      "props": {
+        "className": {
+          "unreadableValue": 1
+        },
+        "active": {
+          "unreadableValue": 1
+        },
+        "key": {
+          "unreadableValue": 1
+        },
+        "onClick": {
+          "function": 1
+        }
+      },
+      "children": {}
+    },
+    "ToolbarGroup": {
+      "count": 1,
+      "props": {
+        "elastic": {
+          "true": 1
+        },
+        "className": {
+          "has-background-white": 1
+        }
+      },
+      "children": {
+        "ToolbarSpace": 2,
+        "ToolbarItem": 1
+      }
+    },
+    "ToolbarSpace": {
+      "count": 2,
+      "props": {},
+      "children": {
+        "noChild": 2
+      }
+    },
+    "ToolbarItem": {
+      "count": 1,
+      "props": {
+        "className": {
+          "is-centered": 1
+        }
+      },
+      "children": {
+        "Tabs": 1
+      }
+    },
+    "Tabs": {
+      "count": 1,
+      "props": {
+        "shadowless": {
+          "true": 1
+        },
+        "centered": {
+          "true": 1
+        }
+      },
+      "children": {}
+    },
+    "Accordion": {
+      "count": 1,
+      "props": {
+        "className": {
+          "is-marginless": 1
+        }
+      },
+      "children": {
+        "AccordionItem": 1
+      }
+    },
+    "AccordionItem": {
+      "count": 1,
+      "props": {
+        "onOpen": {
+          "function": 1
+        },
+        "onClose": {
+          "function": 1
+        },
+        "active": {
+          "unreadableValue": 1
+        }
+      },
+      "children": {
+        "AccordionHeader": 1,
+        "AccordionBody": 1
+      }
+    },
+    "AccordionHeader": {
+      "count": 1,
+      "props": {
+        "className": {
+          " has-background-grey-lighter has-text-black has-text-weight-bold is-borderless is-centered is-marginless": 1
+        }
+      },
+      "children": {
+        "Icon": 1
+      }
+    },
+    "AccordionBody": {
+      "count": 1,
+      "props": {
+        "className": {
+          "comparator-body has-background-grey-lighter is-paddingless": 1
+        }
+      },
+      "children": {
+        "customComponent": 1
+      }
+    },
+    "Image": {
+      "count": 1,
+      "props": {},
+      "children": {}
+    }
+  }
+}

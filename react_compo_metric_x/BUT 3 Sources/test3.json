@@ -1,0 +1,210 @@
+{
+    "version": "4.2.0",
+    "project": "advanced-dashboard",
+    "date": "25/03/2024_16h45",
+    "team": "Gamma Squad",
+    "stats": {
+      "Dashboard": {
+        "count": 5,
+        "props": {
+          "theme": {
+            "dark": 3,
+            "light": 2
+          },
+          "layout": {
+            "fluid": 2,
+            "fixed": 3
+          }
+        },
+        "children": {
+          "Widget": 10,
+          "Footer": 2
+        }
+      },
+      "Widget": {
+        "count": 10,
+        "props": {
+          "type": {
+            "chart": 5,
+            "summary": 3,
+            "table": 2
+          }
+        },
+        "children": {
+          "Chart": 5,
+          "Table": 2
+        }
+      },
+      "Footer": {
+        "count": 2,
+        "props": {
+          "copyright": {
+            "true": 2
+          }
+        },
+        "children": {}
+      },
+      "Chart": {
+        "count": 5,
+        "props": {
+          "chartType": {
+            "bar": 2,
+            "line": 2,
+            "pie": 1
+          }
+        },
+        "children": {}
+      },
+      "Table": {
+        "count": 2,
+        "props": {
+          "rows": {
+            "10": 1,
+            "20": 1
+          }
+        },
+        "children": {}
+      },
+      "NavigationBar": {
+        "count": 2,
+        "props": {},
+        "children": {
+          "NavItem": 6
+        }
+      },
+      "NavItem": {
+        "count": 6,
+        "props": {
+          "active": {
+            "true": 2,
+            "false": 4
+          }
+        },
+        "children": {}
+      },
+      "ProfileCard": {
+        "count": 2,
+        "props": {
+          "user": {
+            "unreadableValue": 2
+          },
+          "showDetails": {
+            "true": 2
+          }
+        },
+        "children": {
+          "Avatar": 2,
+          "UserInfo": 2
+        }
+      },
+      "Avatar": {
+        "count": 2,
+        "props": {
+          "size": {
+            "large": 1,
+            "medium": 1
+          }
+        },
+        "children": {}
+      },
+      "UserInfo": {
+        "count": 2,
+        "props": {
+          "displayEmail": {
+            "true": 2
+          }
+        },
+        "children": {}
+      },
+      "SearchBar": {
+        "count": 2,
+        "props": {
+          "placeholder": {
+            "Search...": 1,
+            "Rechercher...": 1
+          }
+        },
+        "children": {}
+      },
+      "Modal": {
+        "count": 2,
+        "props": {
+          "isOpen": {
+            "false": 2
+          },
+          "size": {
+            "medium": 2
+          }
+        },
+        "children": {
+          "ModalHeader": 2,
+          "ModalBody": 2,
+          "ModalFooter": 2
+        }
+      },
+      "ModalHeader": {
+        "count": 2,
+        "props": {
+          "title": {
+            "Settings": 2
+          }
+        },
+        "children": {}
+      },
+      "ModalBody": {
+        "count": 2,
+        "props": {},
+        "children": {
+          "Form": 2
+        }
+      },
+      "ModalFooter": {
+        "count": 2,
+        "props": {},
+        "children": {
+          "Button": 4
+        }
+      },
+      "Form": {
+        "count": 2,
+        "props": {
+          "onSubmit": {
+            "function": 2
+          }
+        },
+        "children": {
+          "Input": 6,
+          "Checkbox": 4
+        }
+      },
+      "Input": {
+        "count": 6,
+        "props": {
+          "type": {
+            "text": 3,
+            "email": 3
+          }
+        },
+        "children": {}
+      },
+      "Checkbox": {
+        "count": 4,
+        "props": {
+          "checked": {
+            "false": 4
+          }
+        },
+        "children": {}
+      },
+      "Button": {
+        "count": 4,
+        "props": {
+          "variant": {
+            "primary": 2,
+            "secondary": 2
+          }
+        },
+        "children": {}
+      }
+    }
+  }

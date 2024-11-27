@@ -1,0 +1,20 @@
+# Rapport BACK-END
+
+Dans ce rapport sera mentionné les problèmes et les succès lié au back-end 
+
+## Models 
+
+Il y a au total 8 Models : 
+- changeLogModel : représente le changelog des projet 
+- feedback : représente les feedback que les utilisateurs posterons
+- itemsModel : représente un fichier json 
+- mainModel 
+- projectModel : représente le nom du project
+- statsModel : représente les stats d'un projet 
+- teamModel : représente l'équipe ou les équipes d'un projet 
+- versionModel : représente le ou les versions d'un projet
+
+
+
+## Problèmes 
+Problème avec la route qui renvoie toutes les versions 

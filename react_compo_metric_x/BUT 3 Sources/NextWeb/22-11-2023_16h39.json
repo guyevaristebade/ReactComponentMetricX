@@ -1,0 +1,692 @@
+{
+  "version": "3.8.1",
+  "project": "NextWeb",
+  "date": "22/11/2023_16h39",
+  "team": "Testicular",
+  "stats": {
+    "TrilogyProviderStyled": {
+      "count": 1,
+      "props": {},
+      "children": {}
+    },
+    "Section": {
+      "count": 8,
+      "props": {
+        "background": {
+          "TrilogyColor.GREY_LIGHTER": 2,
+          "TrilogyColor.WHITE": 2,
+          "TrilogyColor.SECONDARY20": 1
+        },
+        "paddingless": {
+          "true": 1
+        },
+        "className": {
+          "has-text-centered": 1
+        }
+      },
+      "children": {
+        "Columns": 1,
+        "customComponent": 4,
+        "Container": 1
+      }
+    },
+    "Columns": {
+      "count": 13,
+      "props": {
+        "marginless": {
+          "true": 4
+        },
+        "multiline": {
+          "true": 3
+        },
+        "mobile": {
+          "true": 1
+        },
+        "verticalCentered": {
+          "true": 1
+        },
+        "className": {
+          "is-hidden-desktop": 2,
+          "unreadableValue": 1
+        },
+        "inlined": {
+          "true": 4
+        },
+        "centered": {
+          "true": 1
+        },
+        "data-cy": {
+          "product-list": 1
+        }
+      },
+      "children": {
+        "customComponent": 1,
+        "ColumnsItem": 22
+      }
+    },
+    "Container": {
+      "count": 9,
+      "props": {
+        "sticky": {
+          "StickyPosition.TOP": 4
+        },
+        "fullwidth": {
+          "true": 5
+        },
+        "background": {
+          "TrilogyColor.GREY_LIGHTER": 4
+        },
+        "fluid": {
+          "true": 3
+        },
+        "className": {
+          "has-background-white": 3
+        },
+        "centered": {
+          "true": 1
+        },
+        "verticalCentered": {
+          "true": 1
+        }
+      },
+      "children": {
+        "customComponent": 4,
+        "Columns": 5,
+        "Accordion": 1,
+        "Icon": 1,
+        "Container": 1,
+        "Spacer": 2,
+        "Headline": 1,
+        "Box": 1
+      }
+    },
+    "ColumnsItem": {
+      "count": 26,
+      "props": {
+        "size": {
+          "5": 1,
+          "7": 1,
+          "12": 1
+        },
+        "desktopSize": {
+          "2": 1,
+          "3": 1,
+          "4": 2,
+          "6": 1,
+          "9": 1
+        },
+        "className": {
+          "is-block-desktop is-hidden-mobile is-hidden-tablet-only": 1,
+          "is-hidden-desktop": 2,
+          "is-narrow-mobile": 3
+        },
+        "centered": {
+          "true": 3
+        },
+        "verticalCenter": {
+          "true": 5
+        },
+        "narrow": {
+          "true": 3
+        },
+        "mobileSize": {
+          "2": 1,
+          "8": 1
+        },
+        "tabletSize": {
+          "6": 2,
+          "9": 1
+        }
+      },
+      "children": {
+        "Container": 2,
+        "customComponent": 9,
+        "Spacer": 2,
+        "Text": 8,
+        "Button": 3,
+        "Modal": 1,
+        "Title": 4,
+        "Columns": 3,
+        "Icon": 4,
+        "Box": 4
+      }
+    },
+    "Text": {
+      "count": 27,
+      "props": {
+        "typo": {
+          "TypographyBold.TEXT_WEIGHT_MEDIUM": 1,
+          "TypographyAlign.TEXT_LEFT": 2,
+          "TypographyBold.TEXT_WEIGHT_SEMIBOLD": 6
+        },
+        "marginless": {
+          "true": 10
+        },
+        "level": {
+          "TextLevels.THREE": 4,
+          "TextLevels.ONE": 2,
+          "TextLevels.TWO": 2
+        },
+        "className": {
+          "is-flex": 2,
+          "is-flex is-level-3 is-marginless": 1,
+          "is-size-5": 1
+        },
+        "markup": {
+          "TextMarkup.SPAN": 1
+        }
+      },
+      "children": {
+        "Popover": 2,
+        "customComponent": 1,
+        "Link": 1
+      }
+    },
+    "Button": {
+      "count": 4,
+      "props": {
+        "variant": {
+          "ButtonColor.TERTIARY": 2,
+          "ButtonColor.SECONDARY": 1,
+          "ButtonColor.PRIMARY": 1
+        },
+        "fullwidth": {
+          "true": 3
+        },
+        "onClick": {
+          "function": 4
+        },
+        "iconName": {
+          "IconName.SLIDERS": 1,
+          "IconName.SEARCH": 1
+        },
+        "type": {
+          "button": 1
+        },
+        "accessibilityLabel": {
+          "Afficher le champs de recherche": 1
+        }
+      },
+      "children": {
+        "noChild": 1
+      }
+    },
+    "Modal": {
+      "count": 2,
+      "props": {
+        "panel": {
+          "true": 1
+        },
+        "closeIcon": {
+          "true": 2
+        },
+        "active": {
+          "unreadableValue": 1,
+          "true": 1
+        },
+        "onOpen": {
+          "function": 1
+        },
+        "onClose": {
+          "function": 2
+        }
+      },
+      "children": {
+        "customComponent": 4,
+        "Headline": 1,
+        "Spacer": 1
+      }
+    },
+    "Spacer": {
+      "count": 15,
+      "props": {
+        "size": {
+          "SpacerSize.MEDIUM": 6,
+          "SpacerSize.LARGE": 2,
+          "SpacerSize.HUGE": 4,
+          "SpacerSize.SMALL": 3
+        },
+        "key": {
+          "unreadableValue": 1
+        }
+      },
+      "children": {
+        "noChild": 15
+      }
+    },
+    "Pagination": {
+      "count": 1,
+      "props": {
+        "onClick": {
+          "unreadableValue": 1
+        },
+        "count": {
+          "unreadableValue": 1
+        },
+        "pageSize": {
+          "unreadableValue": 1
+        },
+        "defaultPage": {
+          "unreadableValue": 1
+        },
+        "href": {
+          "function": 1
+        }
+      },
+      "children": {
+        "noChild": 1
+      }
+    },
+    "Headline": {
+      "count": 4,
+      "props": {
+        "level": {
+          "1": 1,
+          "3": 1,
+          "HeadlineLevel.LEVEL4": 2
+        },
+        "className": {
+          "has-text-left is-size-3": 1,
+          "is-hidden-desktop": 1,
+          "is-size-2": 1
+        },
+        "markup": {
+          "HeadlineMarkup.H1": 3
+        },
+        "typo": {
+          "TypographyAlign.TEXT_CENTERED": 1
+        }
+      },
+      "children": {
+        "Text": 2
+      }
+    },
+    "SelectOption": {
+      "count": 1,
+      "props": {
+        "key": {
+          "unreadableValue": 1
+        }
+      },
+      "children": {
+        "noChild": 1
+      }
+    },
+    "Divider": {
+      "count": 4,
+      "props": {},
+      "children": {
+        "noChild": 4
+      }
+    },
+    "Title": {
+      "count": 10,
+      "props": {
+        "className": {
+          "is-inline-flex is-size-5 is-vcentered": 2,
+          "center-title is-marginless is-size-5": 1
+        },
+        "level": {
+          "TitleLevels.TWO": 2,
+          "TitleLevels.THREE": 5
+        },
+        "markup": {
+          "TitleMarkup.H2": 1
+        },
+        "subtitle": {
+          "true": 1
+        }
+      },
+      "children": {
+        "customComponent": 2
+      }
+    },
+    "Accordion": {
+      "count": 1,
+      "props": {},
+      "children": {
+        "AccordionItem": 1
+      }
+    },
+    "AccordionItem": {
+      "count": 1,
+      "props": {},
+      "children": {
+        "AccordionHeader": 1,
+        "AccordionBody": 1
+      }
+    },
+    "AccordionHeader": {
+      "count": 1,
+      "props": {
+        "toggle": {
+          "true": 1
+        }
+      },
+      "children": {}
+    },
+    "AccordionBody": {
+      "count": 1,
+      "props": {},
+      "children": {
+        "customComponent": 1
+      }
+    },
+    "Icon": {
+      "count": 14,
+      "props": {
+        "size": {
+          "medium": 1,
+          "IconSize.MEDIUM": 4,
+          "IconSize.SMALL": 1,
+          "IconSize.SMALLER": 1
+        },
+        "name": {
+          "IconName.HANDSFREE": 1,
+          "IconName.INFOS_CIRCLE": 3,
+          "IconName.SHIELD_PRIVATE_LIFE": 1,
+          "IconName.PARCEL_RELAY": 1,
+          "IconName.ADVISOR": 1,
+          "IconName.ARROW_LEFT": 1,
+          "IconName.MOBILE": 1,
+          "IconName.STAR_FILLED": 1,
+          "IconName.STAR_HALF": 1,
+          "IconName.STAR_EMPTY": 1,
+          "IconName.SLIDERS": 1,
+          "IconName.UNDO": 1
+        },
+        "content": {
+          "Kit mains libres recommandé": 1,
+          "Retour vers tous les téléphones": 1,
+          "unreadableValue": 1,
+          "après remboursement": 1,
+          "Filtres": 1
+        },
+        "className": {
+          "popover-modal": 2,
+          "is-marginless": 1
+        },
+        "textClassName": {
+          "text is-level-2 is-marginless": 1,
+          "text has-text-tertiary has-text-weight-bold": 1,
+          "has-text-tertiary": 1,
+          "is-size-3 has-text-weight-semibold": 1
+        },
+        "key": {
+          "unreadableValue": 3
+        },
+        "color": {
+          "unreadableValue": 3,
+          "IconColor.TERTIARY": 1
+        },
+        "position": {
+          "IconPosition.RIGHT": 1
+        },
+        "onClick": {
+          "unreadableValue": 1
+        }
+      },
+      "children": {
+        "noChild": 14
+      }
+    },
+    "Popover": {
+      "count": 2,
+      "props": {
+        "content": {
+          "Le coupon et les instructions vous seront envoyés par mail après achat.": 2
+        }
+      },
+      "children": {
+        "Icon": 2
+      }
+    },
+    "View": {
+      "count": 1,
+      "props": {
+        "className": {
+          "card column has-background-grey-lighter has-text-left is-shadowless subtable": 1
+        }
+      },
+      "children": {
+        "Text": 3
+      }
+    },
+    "Box": {
+      "count": 7,
+      "props": {
+        "className": {
+          "is-fullheight": 1
+        }
+      },
+      "children": {
+        "BoxContent": 3,
+        "Columns": 1
+      }
+    },
+    "BoxContent": {
+      "count": 3,
+      "props": {
+        "className": {
+          "has-text-centered": 3
+        }
+      },
+      "children": {
+        "customComponent": 3,
+        "Title": 2,
+        "Text": 1,
+        "Rows": 1,
+        "Spacer": 1,
+        "Price": 1
+      }
+    },
+    "Link": {
+      "count": 4,
+      "props": {
+        "onClick": {
+          "function": 4
+        }
+      },
+      "children": {
+        "Icon": 1
+      }
+    },
+    "BreadcrumbItem": {
+      "count": 1,
+      "props": {
+        "key": {
+          "unreadableValue": 1
+        },
+        "className": {
+          "is-underline": 1
+        },
+        "href": {
+          "unreadableValue": 1
+        },
+        "active": {
+          "unreadableValue": 1
+        }
+      },
+      "children": {}
+    },
+    "Rows": {
+      "count": 1,
+      "props": {},
+      "children": {
+        "RowItem": 2
+      }
+    },
+    "RowItem": {
+      "count": 2,
+      "props": {},
+      "children": {
+        "Tag": 1,
+        "Text": 1
+      }
+    },
+    "Tag": {
+      "count": 3,
+      "props": {
+        "className": {
+          "has-background-tertiary has-text-weight-semibold has-text-white": 1
+        },
+        "small": {
+          "true": 2
+        },
+        "variant": {
+          "TagVariant.SECONDARY": 1
+        },
+        "deletable": {
+          "true": 1
+        },
+        "onClick": {
+          "function": 1
+        }
+      },
+      "children": {}
+    },
+    "Tabs": {
+      "count": 2,
+      "props": {},
+      "children": {
+        "TabsItem": 3
+      }
+    },
+    "TabsItem": {
+      "count": 4,
+      "props": {
+        "key": {
+          "unreadableValue": 1
+        },
+        "active": {
+          "unreadableValue": 1
+        },
+        "routerLink": {
+          "unreadableValue": 1
+        },
+        "onClick": {
+          "function": 1
+        },
+        "href": {
+          "unreadableValue": 1
+        }
+      },
+      "children": {}
+    },
+    "AutoComplete": {
+      "count": 1,
+      "props": {
+        "customIcon": {
+          "unreadableValue": 1
+        },
+        "data": {
+          "unreadableValue": 1
+        },
+        "onChange": {
+          "unreadableValue": 1
+        },
+        "onItemSelected": {
+          "function": 1
+        },
+        "placeholder": {
+          "unreadableValue": 1
+        },
+        "displayMenu": {
+          "false": 1
+        },
+        "matching": {
+          "unreadableValue": 1
+        },
+        "onSubmit": {
+          "function": 1
+        },
+        "value": {
+          "unreadableValue": 1
+        },
+        "search": {
+          "true": 1
+        },
+        "fullwidthMenu": {
+          "true": 1
+        }
+      },
+      "children": {
+        "noChild": 1
+      }
+    },
+    "Price": {
+      "count": 2,
+      "props": {
+        "level": {
+          "4": 1
+        },
+        "amount": {
+          "unreadableValue": 2
+        },
+        "align": {
+          "Alignable.ALIGNED_CENTER": 1
+        },
+        "showCents": {
+          "unreadableValue": 2
+        },
+        "suptitle": {
+          "unreadableValue": 1
+        },
+        "className": {
+          "unreadableValue": 1,
+          "has-text-weight-bold is-6": 1
+        },
+        "inline": {
+          "true": 1
+        },
+        "period": {
+          "unreadableValue": 1
+        }
+      },
+      "children": {
+        "noChild": 2
+      }
+    },
+    "BoxFooter": {
+      "count": 1,
+      "props": {
+        "className": {
+          "is-centered is-flex": 1
+        }
+      },
+      "children": {
+        "Checkbox": 1
+      }
+    },
+    "Checkbox": {
+      "count": 2,
+      "props": {
+        "id": {
+          "unreadableValue": 2
+        },
+        "label": {
+          "Ajouter au comparateur": 1,
+          "unreadableValue": 1
+        },
+        "className": {
+          "has-text-tertiary": 1
+        },
+        "onClick": {
+          "unreadableValue": 1
+        },
+        "name": {
+          "unreadableValue": 1
+        },
+        "checked": {
+          "unreadableValue": 1
+        },
+        "value": {
+          "unreadableValue": 1
+        }
+      },
+      "children": {
+        "noChild": 2
+      }
+    }
+  }
+}
