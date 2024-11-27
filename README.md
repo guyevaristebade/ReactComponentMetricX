@@ -1,3 +1,5 @@
+# Il y a un gros travail à faire dessus avant de le deployer 
+
 # ReactComponentMétricX
 
 RCMX est un projet qui vise à recolter des feedbacks sur l'utilisation des librairies de composants react.

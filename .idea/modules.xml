@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ReactCompoMetricsX.iml" filepath="$PROJECT_DIR$/.idea/ReactCompoMetricsX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/react_compo_metric_x.iml" filepath="$PROJECT_DIR$/.idea/react_compo_metric_x.iml" />
     </modules>
   </component>
 </project>

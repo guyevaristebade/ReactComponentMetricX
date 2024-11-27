@@ -1,6 +1,6 @@
 export * from './changelog.js'
 export * from './component.js'
-export * from '././feedback.js'
+export * from './feedback.js'
 export * from './item.js'
 export * from './main.js'
 export * from './project.js'
